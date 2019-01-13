@@ -36,8 +36,32 @@ def find_contact(contacts, name):
     return None
 
 
-def run():
+# name,phone_number,email,address\n
+# ex : 홍길동,01082821001,hong@naver.com,서울시\n
+def save_contacts_to_file(file, contacts):
+    f = open(file, 'wt')
+    for contact in contacts:
+        f.write(contact.name + ',' + contact.phone_number + ',' + contact.email + ',' + contact.address + '\n')
+    f.close()
+
+
+def load_contacts_form_file(file):
     contacts = []
+    f = open(file)
+    lines = f.readlines()
+    for line in lines:
+        # 끝 '\n' 문자 제거 후, ','로 문자열 분리
+        contact_line = line.split('\n')[0].split(',')
+        contact = Contact(contact_line[0],  # 이름
+                          contact_line[1],  # 전화번호
+                          contact_line[2],  # 이메일
+                          contact_line[3])  # 주소
+        contacts.append(contact)
+    return contacts
+
+
+def run():
+    contacts = load_contacts_form_file('./contacts_db.txt')
     while 1:
         print('1. 연락처 입력')
         print('2. 연락처 출력')
@@ -50,11 +74,12 @@ def run():
 
         if select_menu == 1:
             contacts.append(input_contact())
+            save_contacts_to_file('./contacts_db.txt', contacts)
         if select_menu == 2:
             print_contacts(contacts)
         if select_menu == 3:
             delete_name_of_contact = input("삭제 주소록(이름) :")
-            delete_contact = find_contact(contacts,delete_name_of_contact)
+            delete_contact = find_contact(contacts, delete_name_of_contact)
             contacts.remove(delete_contact)
 
 

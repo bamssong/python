@@ -54,6 +54,8 @@ wikidocs 파이썬으로 배우는 알고리즘 트레이딩 (4쇄)참조
 
 Window OS : 국내 주식 open api 를 사용 위함.
 
+https://3months.tistory.com/292
+
 
 
 #### 1주차 
@@ -68,6 +70,14 @@ Window OS : 국내 주식 open api 를 사용 위함.
 2-1 COM과 파이썬
 2-2 파이썬으로 엑셀다루기
 ```
+
+
+
+COM : [pywin32](https://github.com/mhammond/pywin32)
+
+
+
+
 
 ```
 3. 키움증권API

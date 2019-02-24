@@ -7,6 +7,7 @@
 
 
 ### 1부 : [점프 투 파이썬](https://wikidocs.net/book/1)
+[chapter1 참고](./chapter1)
 
 1.6 ~ 2.17 (매주 일요일 13:00 - 15:00)
 
@@ -24,6 +25,7 @@
 
 
 ### 2부 : [파이썬으로 배우는 알고리즘 트레이딩](https://wikidocs.net/book/110)
+[chapter2 참고](./chapter2)
 
 2.17 ~ (매주 일요일 13:00 - 15:00)
 

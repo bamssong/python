@@ -77,9 +77,18 @@ COM : [pywin32](https://github.com/mhammond/pywin32)
 
 ```
 12장 키움증권API
-12-1 개발환경구축
-12-2 PyQT기초
-12-3 기초API익히기
+```
+
+#### 3주차
+
+```
+13장 Pandas를 이용한 데이터기초분석
+```
+
+#### 4주차
+
+```
+14장 Pandas, zipline을 이용한 백테스트
 ```
 
 
@@ -87,8 +96,6 @@ COM : [pywin32](https://github.com/mhammond/pywin32)
 #### NEXT
 
 ```
-13장 Pandas를 이용한 데이터기초분석
-14장 Pandas, zipline을 이용한 백테스트
 15장 matplotlib를 이용한 데이터 시각화
 16장 PyQt를 이용한 GUI 프로그래밍
 

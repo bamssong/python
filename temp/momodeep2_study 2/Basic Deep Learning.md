@@ -269,3 +269,12 @@ Deep : 연속된 층으로 표현을 학습한다는 개념
 
 고차원(3D)
 
+
+
+https://colab.research.google.com/github/bamssong/TensorFlow/blob/master/code_session_version/lab-09-1-XOR-session.ipynb#scrollTo=W1vR21Wkik6D
+
+https://colab.research.google.com/github/bamssong/TensorFlow/blob/master/code_session_version/lab-09-2-XOR-NN-session.ipynb#scrollTo=7oHiwR3no-wh
+
+https://colab.research.google.com/github/bamssong/TensorFlow/blob/master/code_session_version/lab-09-3-XOR-NN-Wide-Deep-session.ipynb
+
+https://colab.research.google.com/github/bamssong/TensorFlow/blob/master/code_session_version/lab-09-4-XOR-tensorboard.ipynb#scrollTo=4rveER7ipWFC

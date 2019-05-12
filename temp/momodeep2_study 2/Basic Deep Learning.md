@@ -187,7 +187,7 @@ XOR 문제 해결? 여러개의 layer를 합치기. 하지만 가중치 조절�
 
 #### 뉴럴 네트워크(NN)
 
-![딥러닝 기본 개념]./res/Back-propagation_02.png)
+![딥러닝 기본 개념](./res/Back-propagation_02.png)
 
 여러개의 모델합치면 가능하다 
 
